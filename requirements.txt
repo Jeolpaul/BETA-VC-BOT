@@ -22,3 +22,8 @@ tgcrypto
 youtube-search
 youtube-search-python
 yt-dlp
+marshmallow==3.14.1
+umongo==3.0.1
+requests
+bs4
+imdbpy==2021.4.18
