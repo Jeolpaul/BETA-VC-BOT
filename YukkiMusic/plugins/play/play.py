@@ -38,6 +38,8 @@ from YukkiMusic.utils.stream.stream import stream
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")
 
+ForceSub = "Beta_Botz"
+
 
 @app.on_message(
     filters.command(PLAY_COMMAND)
@@ -57,6 +59,21 @@ async def play_commnd(
     url,
     fplay,
 ):
+    if ForceSub:   
+        try:             
+            user = await client.get_chat_member(ForceSub, message.from_user.id)
+            if user.status == "kicked":
+               await message.reply_text("Sorry, You're Banned")
+               return
+        except UserNotParticipant:            
+            await message.reply_text(
+                text="**⚠️DUE TO OVERLOAD ONLY CHANNEL MEMBERS CAN USE ME | JUST JOIN OUR CHANNEL BY CLICKING BELOW BUTTON AND PLAY AGAIN**",
+                reply_markup=InlineKeyboardMarkup([
+                    [ InlineKeyboardButton("📢 JOIN CHANNEL 📢", url=f"https://t.me/{ForceSub}")]                    
+              ])
+            )
+            return
+
     mystic = await message.reply_text(
         _["play_2"].format(channel) if channel else _["play_1"]
     )
