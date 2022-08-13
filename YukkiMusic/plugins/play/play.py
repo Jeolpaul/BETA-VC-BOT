@@ -11,6 +11,7 @@ import random
 import string
 from ast import ExceptHandler
 
+from pyrogram.errors import UserNotParticipant
 from pyrogram import filters
 from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto,
                             Message)
