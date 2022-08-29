@@ -86,7 +86,7 @@ VARS_COMMAND : ["vars", "config"]
 
 #Basic Bot Commands
 UPDATE_COMMAND : ["update"]
-REBOOT_COMMAND : ["reboot"]
+REBOOT_COMMAND : ["reboot", "restart"]
 AUTOEND_COMMAND : ["autoend"]
 
 #Private Bot Mode
@@ -103,7 +103,7 @@ BLOCKED_COMMAND : ["blockedusers"]
 SPEEDTEST_COMMAND : ["speedtest"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevoice"]
+ACTIVEVC_COMMAND : ["activevc"]
 ACTIVEVIDEO_COMMAND : ["activevideo"]
 
 #Gban Commands
