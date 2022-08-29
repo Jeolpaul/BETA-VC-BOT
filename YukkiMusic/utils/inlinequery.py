@@ -15,17 +15,16 @@ answer = []
 answer.extend(
     [
         InlineQueryResultArticle(
-            title="GITHUB REPO",
-            description=f"GET THE REPO OF MEH!",
-            thumb_url="https://graph.org/file/bb1ebd7c68d600dae4600.jpg",
-            input_message_content=InputTextMessageContent(
-                    "CLICK THE BELOW BUTTON TO GET MY REPO"
+                title="JOIN OUR UPDATES CHANNEL",
+                input_message_content=InputTextMessageContent(
+                    "JOIN OUR UPDATES CHANNEL"
                 ),
+                thumb_url="https://telegra.ph/file/5b4d3482480f426ea5ede.jpg",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
-                            "GIT REPO💡",
-                            url="https://github.com/Jeolpaul/BETA-MUSIC-OFFICIAL-"
+                            "Open channel",
+                            url="https://t.me/beta_botz"
                         )]
                     ]
                 )
