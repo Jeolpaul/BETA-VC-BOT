@@ -15,20 +15,10 @@ answer = []
 answer.extend(
     [
         InlineQueryResultArticle(
-                title="JOIN OUR UPDATES CHANNEL",
-                input_message_content=InputTextMessageContent(
-                    "JOIN OUR UPDATES CHANNEL"
-                ),
-                thumb_url="https://telegra.ph/file/5b4d3482480f426ea5ede.jpg",
-                reply_markup=InlineKeyboardMarkup(
-                    [
-                        [InlineKeyboardButton(
-                            "Open channel",
-                            url="https://t.me/beta_botz"
-                        )]
-                    ]
-                )
-            ),
+            title="GIT REPO",
+            description="Get The Source Of Me",
+            thumb_url="https://graph.org/file/bb1ebd7c68d600dae4600.jpg",
+            input_message_content=InputTextMessageContent("https://github.com/Jeolpaul/BETA-MUSIC-OFFICIAL"),
         ),
     ]
 )
