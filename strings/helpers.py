@@ -123,7 +123,7 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /set_var [Var Name] [Value] - Set a Var or Update a Var on heroku or .env. Seperate Var and its Value with a space.
 
 🤖**<u>BOT COMMANDS:</u>**
-/reboot - Reboot your Bot. 
+/reboot | /restart - Reboot your Bot. 
 /update - Update Bot.
 /speedtest - Check server speeds
 /maintenance [enable / disable] 
@@ -132,7 +132,7 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /autoend [enable|disable] - Enable Auto stream end after 3 mins if no one is listening.
 
 📈**<u>STATS COMMANDS:</u>**
-/activevoice - Check active voice chats on bot.
+/activevc - Check active voice chats on bot.
 /activevideo - Check active video calls on bot.
 /stats - Check Bots Stats
 
