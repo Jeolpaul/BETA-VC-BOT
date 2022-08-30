@@ -17,7 +17,6 @@ from pyrogram.types import (InlineQueryResultArticle,
     & filters.group
     & filters.private
     & ~filters.edited
-    & ~BANNED_USERS
 )
 async def inlinehelp(client, message: Message, _):
     response = await message.reply_text(
