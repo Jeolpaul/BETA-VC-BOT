@@ -28,6 +28,7 @@ answer.extend(
     [
         InlineQueryResultArticle(
             title="SEARCH ANY QUERY HERE🔍",
+            thumb="https://telegra.ph//file/e937426b58e31a881c25f.jpg",
             input_message_content=InputTextMessageContent("/inlinehelp"),
         ),
     ]
