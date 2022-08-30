@@ -49,13 +49,13 @@ from config import (
     OWNER_ID as SUDOERS,
 )
 
-from Beta.core.keyboard import ikb
-from Beta.core.tasks import _get_tasks_text, all_tasks, rm_task
-from Beta.core.types import InlineQueryResultCachedDocument
-from wbb.modules.info import get_chat_info, get_user_info
-from wbb.modules.music import download_youtube_audio
-from wbb.utils.functions import test_speedtest
-from wbb.utils.pastebin import paste
+from WilliamButcherBot.importer.keyboard import ikb
+from WilliamButcherBot.importer.tasks import _get_tasks_text, all_tasks, rm_task
+from WilliamButcherBot.importer.types import InlineQueryResultCachedDocument
+from WilliamButcherBot.importer.info import get_chat_info, get_user_info
+from WilliamButcherBot.importer.music import download_youtube_audio
+from WilliamButcherBot.importer.functions import test_speedtest
+from WilliamButcherBot.importer.pastebin import paste
 
 keywords_list = [
     "image",
