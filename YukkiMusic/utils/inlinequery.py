@@ -19,6 +19,7 @@ answer.extend(
             description="Get The Source Of Me",
             thumb_url="https://graph.org/file/bb1ebd7c68d600dae4600.jpg",
             input_message_content=InputTextMessageContent("BETA MUSIC IS A 100% Clone Of Yukki | https://github.com/Jeolpaul/BETA-MUSIC-OFFICIAL | ALL CREDITS GOES TO YUKKI"),
+
     if search_query == "":
         await client.answer_inline_query(
             query.id,
