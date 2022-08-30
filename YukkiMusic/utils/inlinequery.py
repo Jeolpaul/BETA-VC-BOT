@@ -11,6 +11,24 @@ from pyrogram import Client, filters
 from pyrogram.types import (InlineQueryResultArticle,
                             InputTextMessageContent,
                             Message)
+@app.on_message(
+    filters.command(inlinehelp)
+    & filters.group
+    & filters.private
+    & ~filters.edited
+    & ~BANNED_USERS
+)
+async def inlinehelp(client, message: Message, _):
+    response = await message.reply_text(
+        text="""YOU CAN SEARCH YOUTUBE IN TELEGRAM USING ME
+
+Just Type ```@BETA_VC_BOT``` On Your Keyboard At Any Chat
+Eg:- ```@BETA_VC_BOT How To Setup A Music Bot In Telegram | Telegram Bot | How to make a music bot in telegram```
+
+LIKE THIS YOU CAN SEARCH anything ON YT""",
+    )
+
+
 
 answer = []
 
