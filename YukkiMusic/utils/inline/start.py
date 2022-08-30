@@ -98,7 +98,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons.append(
         [
             InlineKeyboardButton(
-                text="➣ Help", callback_data="settings_back_helper"
+                text="➣ SWITCH INLINE", switch_inline_query_current_chat=''
             )
         ]
     )
