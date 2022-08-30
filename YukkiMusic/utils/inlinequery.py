@@ -7,6 +7,7 @@
 #
 # All rights reserved.
 
+from YukkiMusic import app
 from pyrogram import Client, filters
 from pyrogram.types import (InlineQueryResultArticle,
                             InputTextMessageContent,
