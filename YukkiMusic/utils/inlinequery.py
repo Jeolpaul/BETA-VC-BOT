@@ -16,10 +16,10 @@ from pyrogram.types import (InlineQueryResultArticle,
 async def help_message(bot, message):
     await message.reply_photo(
         photo="https://telegra.ph//file/e937426b58e31a881c25f.jpg",
-        caption="""Hey how can i help You. The Basic Commands is /id & /info.
-If you have any questions join support
-Group and ask🤍❤️
-Thank you for using Beta""")
+        caption="""YOU CAN SEARCH YOUTUBE IN TELEGRAM USING ME
+Just Type ```@BETA_VC_BOT``` On Your Keyboard At Any Chat
+Eg:- ```@BETA_VC_BOT How To Setup A Music Bot In Telegram | Telegram Bot | How to make a music bot in telegram```
+LIKE THIS YOU CAN SEARCH anything ON YT""")
 
 
 
