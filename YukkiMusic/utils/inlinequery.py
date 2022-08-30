@@ -7,8 +7,10 @@
 #
 # All rights reserved.
 
+from pyrogram import Client, filters
 from pyrogram.types import (InlineQueryResultArticle,
-                            InputTextMessageContent)
+                            InputTextMessageContent,
+                            Message)
 
 answer = []
 
