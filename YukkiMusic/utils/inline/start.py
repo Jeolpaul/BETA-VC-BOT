@@ -31,10 +31,10 @@ def start_pannel(_):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text="➣ UPDATES CHANNEL", url=f"{SUPPORT_CHANNEL}"
+                    text="➣ UPDATES", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="➣ SUPPORT GROUP", url=f"{SUPPORT_GROUP}"
+                    text="➣ SUPPORT", url=f"{SUPPORT_GROUP}"
                 ),
             ]
         )
@@ -43,7 +43,7 @@ def start_pannel(_):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="➣ UPDATES CHANNEL", url=f"{SUPPORT_CHANNEL}"
+                        text="➣ UPDATES", url=f"{SUPPORT_CHANNEL}"
                     )
                 ]
             )
@@ -51,7 +51,7 @@ def start_pannel(_):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="➣ SUPPORT GROUP", url=f"{SUPPORT_GROUP}"
+                        text="➣ SUPPORT", url=f"{SUPPORT_GROUP}"
                     )
                 ]
             )
@@ -71,10 +71,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text="➣ UPDATES CHANNEL", url=f"{SUPPORT_CHANNEL}"
+                    text="➣ UPDATES", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="➣ SUPPORT GROUP", url=f"{SUPPORT_GROUP}"
+                    text="➣ SUPPORT", url=f"{SUPPORT_GROUP}"
                 ),
             ]
         )
@@ -98,7 +98,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons.append(
         [
             InlineKeyboardButton(
-                text="➣ Help", callback_data="settings_helper"
+                text="➣ Help", callback_data="settings_back_helper"
             )
         ]
     )
@@ -125,6 +125,9 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 [
                     InlineKeyboardButton(
                         text="➣ DEVELOPER", user_id=OWNER
+                    ),
+                    InlineKeyboardButton(
+                        text="➣ Help", callback_data="settings_back_helper"
                     ),
                 ]
             )
