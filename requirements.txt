@@ -12,6 +12,7 @@ motor==2.5.1
 pillow
 psutil
 py-tgcalls==0.8.6
+git+https://github.com/Jeolpaul/WilliamButcherBot
 pykeyboard
 pyrogram==1.4.16
 python-dotenv
