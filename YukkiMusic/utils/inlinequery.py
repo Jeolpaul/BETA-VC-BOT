@@ -14,9 +14,8 @@ from pyrogram.types import (InlineQueryResultArticle,
                             Message)
 @app.on_message(filters.command("inlinehelp"))
 async def help_message(bot, message):
-    await message.reply_photo(
-        photo="https://telegra.ph//file/e937426b58e31a881c25f.jpg",
-        caption="""YOU CAN SEARCH YOUTUBE IN TELEGRAM USING ME
+    await message.reply_text(
+        text="""YOU CAN SEARCH YOUTUBE IN TELEGRAM USING ME
 Just Type ```@BETA_VC_BOT``` On Your Keyboard At Any Chat
 Eg:- ```@BETA_VC_BOT How To Setup A Music Bot In Telegram | Telegram Bot | How to make a music bot in telegram```
 LIKE THIS YOU CAN SEARCH anything ON YT""")
