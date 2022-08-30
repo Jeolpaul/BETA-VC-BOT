@@ -28,7 +28,7 @@ answer.extend(
     [
         InlineQueryResultArticle(
             title="SEARCH ANY QUERY HERE🔍",
-            input_message_content=InputTextMessageContent("/start"),
+            input_message_content=InputTextMessageContent("/inlinehelp"),
         ),
     ]
 )
