@@ -6,6 +6,7 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from assistant import client as USER
 
+
 PMSET =True
 pchats = []
 
@@ -26,7 +27,7 @@ async def pmPermit(client: USER, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "❤️‍🩹 MUSIC BOT ❤️‍🩹", url=f"https://t.me/{app.USERNAME}"
+                        "❤️‍🩹 MUSIC BOT ❤️‍🩹", url=f"https://t.me/{app.username}"
                     ),
                     InlineKeyboardButton(
                         "💖 SOURCE CODE 💖", url="https://github.com/RishBroPromax/Cat-X-Girl-Music"
