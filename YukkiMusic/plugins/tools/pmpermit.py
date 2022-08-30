@@ -5,12 +5,13 @@ from config import OWNER_ID, PMPERMIT, BOT_NAME
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from assistant import client as USER
-
+from YukkiMusic import app
 
 PMSET =True
 pchats = []
 
 lel = app.username
+
 SUDO_USERS = OWNER_ID
 
 @USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
