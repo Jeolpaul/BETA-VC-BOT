@@ -15,7 +15,8 @@ answer = []
 answer.extend(
     [
         InlineQueryResultArticle(
-            title="GIT REPO",
+            title="SEARCH ANY QUERY HERE🔍",
+            input_message_content=InputTextMessageContent("/start"),
         ),
     ]
 )
