@@ -13,6 +13,8 @@ from pyrogram.types import (InlineQueryResultArticle,
                             InputTextMessageContent,
                             Message)
 
+BOT_USERNAME = {app.username}
+
 @app.on_message(filters.command("inlinehelp"))
 async def help_message(bot, message):
     await message.reply_text(
