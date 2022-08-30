@@ -237,7 +237,7 @@ SUDO_USERS = OWNER_ID
 PMPERMIT = "ENABLE"
 
 @Userbot.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
-async def pmPermit(client: USER, message: Message):
+async def pmPermit(client: Userbot, message: Message):
     if PMPERMIT == "ENABLE":
         if PMSET:
             chat_id = message.chat.id
@@ -266,7 +266,7 @@ async def pmPermit(client: USER, message: Message):
             return
 
 
-@Userbot.on_message(filters.command(["pm", "pmpermit"]))
+@app.on_message(filters.command(["pm", "pmpermit"]))
 async def bye(client: Client, message: Message):
     if message.from_user.id in SUDO_USERS:
         global PMSET
@@ -282,7 +282,7 @@ async def bye(client: Client, message: Message):
             return
 
 @Userbot.on_message(filters.text & filters.private & filters.me)        
-async def autopmPermiat(client: USER, message: Message):
+async def autopmPermiat(client: Userbot, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
         pchats.append(chat_id)
@@ -291,7 +291,7 @@ async def autopmPermiat(client: USER, message: Message):
     message.continue_propagation()    
     
 @Userbot.on_message(filters.command("a", ["!", ".", ""]) & filters.me & filters.private)
-async def pmPermiat(client: USER, message: Message):
+async def pmPermiat(client: Userbot, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
         pchats.append(chat_id)
@@ -301,7 +301,7 @@ async def pmPermiat(client: USER, message: Message):
     
 
 @Userbot.on_message(filters.command("da", ["!", ".", ""]) & filters.me & filters.private)
-async def rmpmPermiat(client: USER, message: Message):
+async def rmpmPermiat(client: Userbot, message: Message):
     chat_id = message.chat.id
     if chat_id in pchats:
         pchats.remove(chat_id)
