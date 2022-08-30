@@ -13,7 +13,7 @@ from pyrogram.types import (InlineQueryResultArticle,
                             InputTextMessageContent,
                             Message)
 @app.on_message(
-    filters.command(inlinehelp)
+    filters.command("inlinehelp")
     & filters.group
     & filters.private
     & ~filters.edited
