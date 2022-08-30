@@ -51,13 +51,13 @@ from config import (
     OWNER_ID as SUDOERS,
 )
 
-from WilliamButcherBot.importer.keyboard import ikb
-from WilliamButcherBot.importer.tasks import _get_tasks_text, all_tasks, rm_task
-from WilliamButcherBot.importer.types import InlineQueryResultCachedDocument
-from WilliamButcherBot.importer.info import get_chat_info, get_user_info
-from WilliamButcherBot.importer.music import download_youtube_audio
-from WilliamButcherBot.importer.functions import test_speedtest
-from WilliamButcherBot.importer.pastebin import paste
+from importer.keyboard import ikb
+from importer.tasks import _get_tasks_text, all_tasks, rm_task
+from importer.types import InlineQueryResultCachedDocument
+from importer.info import get_chat_info, get_user_info
+from importer.music import download_youtube_audio
+from importer.functions import test_speedtest
+from importer.pastebin import paste
 
 keywords_list = [
     "image",
