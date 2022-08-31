@@ -7,7 +7,7 @@ from pyrogram import filters
 from pyrogram.raw.functions.messages import DeleteHistory
 
 from config import BOT_ID, PM_PERMIT, OWNER_ID as SUDOERS, USERBOT_ID, USERBOT_PREFIX
-from YukkiMusic import app, userbot as app2
+from YukkiMusic import app, Userbot as app2
 from YukkiMusic.utils.decorators.errors import capture_err
 from YukkiMusic.utils.database.dbfunctions import (
     approve_pmpermit,
@@ -17,13 +17,7 @@ from YukkiMusic.utils.database.dbfunctions import (
 
 flood = {}
 
-class app2(Client):
-    def __init__(self):
-        self.one = Client(
-            api_id=config.API_ID,
-            api_hash=config.API_HASH,
-            session_name=str(config.STRING),
-            no_updates=True,
+
 
 @app2.on_message(
     filters.private
