@@ -11,6 +11,7 @@ lyricsgenius
 motor==2.5.1
 pillow
 psutil
+motor
 py-tgcalls==0.8.6
 git+https://github.com/Jeolpaul/WilliamButcherBot
 pykeyboard
