@@ -20,7 +20,15 @@ load_dotenv()
 API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH")
 
+
+# USRBOT
+BOT_ID = int(getenv("BOT_ID", ""))
+PM_PERMIT = getenv("PM_PERMIT")
+USERBOT_ID = int(getenv("USERBOT_ID", ""))
+USERBOT_PREFIX = "."
+
 ## Get it from @Botfather in Telegram.
+
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
