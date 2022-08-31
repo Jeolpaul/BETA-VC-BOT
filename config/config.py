@@ -23,7 +23,7 @@ API_HASH = getenv("API_HASH")
 
 # USRBOT
 BOT_ID = int(getenv("BOT_ID", ""))
-PM_PERMIT = getenv("PM_PERMIT")
+PM_PERMIT = "True"
 USERBOT_ID = int(getenv("USERBOT_ID", ""))
 USERBOT_PREFIX = "."
 
