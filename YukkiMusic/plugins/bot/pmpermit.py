@@ -7,7 +7,7 @@ from pyrogram import filters
 from pyrogram.raw.functions.messages import DeleteHistory
 
 from config import BOT_ID, PM_PERMIT, OWNER_ID as SUDOERS, USERBOT_ID, USERBOT_PREFIX
-from YukkiMusic import app, app2, eor
+from YukkiMusic import app, userbot
 from YukkiMusic.utils.decorators.errors import capture_err
 from YukkiMusic.utils.database.dbfunctions import (
     approve_pmpermit,
@@ -18,7 +18,7 @@ from YukkiMusic.utils.database.dbfunctions import (
 flood = {}
 
 
-@app2.on_message(
+@userbot.on_message(
     filters.private
     & filters.incoming
     & ~filters.service
@@ -51,7 +51,7 @@ async def pmpermit_func(_, message):
     )
 
 
-@app2.on_message(
+@userbot.on_message(
     filters.command("approve", prefixes=USERBOT_PREFIX)
     & SUDOERS
     & ~filters.via_bot
@@ -67,7 +67,7 @@ async def pm_approve(_, message):
     await eor(message, text="User is approved to pm")
 
 
-@app2.on_message(
+@userbot.on_message(
     filters.command("disapprove", prefixes=USERBOT_PREFIX)
     & SUDOERS
     & ~filters.via_bot
@@ -91,7 +91,7 @@ async def pm_disapprove(_, message):
     await eor(message, text="User is disapproved to pm")
 
 
-@app2.on_message(
+@userbot.on_message(
     filters.command("block", prefixes=USERBOT_PREFIX)
     & SUDOERS
     & ~filters.via_bot
