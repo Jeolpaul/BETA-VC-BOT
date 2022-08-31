@@ -22,9 +22,9 @@ API_HASH = getenv("API_HASH")
 
 
 # USRBOT
-BOT_ID = int(getenv("BOT_ID", ""))
+BOT_ID = getenv("BOT_ID", "")
 PM_PERMIT = "True"
-USERBOT_ID = int(getenv("USERBOT_ID", ""))
+USERBOT_ID = getenv("USERBOT_ID", "")
 USERBOT_PREFIX = "."
 
 ## Get it from @Botfather in Telegram.
