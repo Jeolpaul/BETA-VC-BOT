@@ -45,3 +45,6 @@ Apple = AppleAPI()
 Resso = RessoAPI()
 SoundCloud = SoundAPI()
 Telegram = TeleAPI()
+
+mongo_client = MongoClient(MONGO_URL)
+db = mongo_client.YukkiMusic
