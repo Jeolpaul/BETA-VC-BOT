@@ -12,6 +12,7 @@ from YukkiMusic.core.dir import dirr
 from YukkiMusic.core.git import git
 from YukkiMusic.core.userbot import Userbot
 from YukkiMusic.misc import dbb, heroku, sudo
+from config import *
 
 from .logging import LOGGER
 
@@ -46,5 +47,5 @@ Resso = RessoAPI()
 SoundCloud = SoundAPI()
 Telegram = TeleAPI()
 
-mongo_client = MongoClient(MONGO_URL)
+mongo_client = MongoClient(MONGO_DB_URI)
 db = mongo_client.YukkiMusic
