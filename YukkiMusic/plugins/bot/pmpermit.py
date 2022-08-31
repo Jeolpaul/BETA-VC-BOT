@@ -17,6 +17,13 @@ from YukkiMusic.utils.database.dbfunctions import (
 
 flood = {}
 
+class app2(Client):
+    def __init__(self):
+        self.one = Client(
+            api_id=config.API_ID,
+            api_hash=config.API_HASH,
+            session_name=str(config.STRING),
+            no_updates=True,
 
 @app2.on_message(
     filters.private
