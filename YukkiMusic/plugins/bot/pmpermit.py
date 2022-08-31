@@ -26,7 +26,6 @@ flood = {}
     & ~filters.me
     & ~filters.bot
     & ~filters.via_bot
-    & ~SUDOERS
 )
 @capture_err
 async def pmpermit_func(_, message):
