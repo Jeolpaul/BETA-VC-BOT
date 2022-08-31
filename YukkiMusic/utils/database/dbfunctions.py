@@ -5,7 +5,7 @@ from string import ascii_lowercase
 
 from typing import Dict, List, Union
 
-from Yukkimusic import db
+from YukkiMusic import db
 
 # SOME THINGS ARE FUCKED UP HERE, LIKE TOGGLEABLES HAVE THEIR OWN COLLECTION
 # (SHOULD FIX IT WITH SOMETHING LIKE TOGGLEDB), MOST OF THE CODE IS BAD AF
