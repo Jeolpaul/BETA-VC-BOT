@@ -6,7 +6,8 @@ from functools import wraps
 
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 
-from YukkiMusic import LOG_GROUP_ID, app
+from YukkiMusic import app
+from config import LOG_GROUP_ID
 
 
 def split_limits(text):
