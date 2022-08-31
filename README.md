@@ -2,4 +2,4 @@
 
 DON'T FORK THIS!!!
 
-FORK https://github.com/Team-yukki/YukkimusicBot
+FORK https://github.com/Teamyukki/YukkimusicBot
