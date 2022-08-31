@@ -2,5 +2,5 @@
 
 DON'T FORK THIS!!!
 
-[FORK HERE](https://github.com/Teamyukki/YukkimusicBot)         
+[FORK HERE](https://github.com/Teamyukki/YukkimusicBot/fork)         
 
