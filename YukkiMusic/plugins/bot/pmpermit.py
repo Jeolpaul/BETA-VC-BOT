@@ -7,7 +7,7 @@ from pyrogram import filters
 from pyrogram.raw.functions.messages import DeleteHistory
 
 from config import BOT_ID, PM_PERMIT, OWNER_ID as SUDOERS, USERBOT_ID, USERBOT_PREFIX
-from Yukkimusic import app, app2, eor
+from YukkiMusic import app, app2, eor
 from YukkiMusic.utils.decorators.errors import capture_err
 from YukkiMusic.utils.database.dbfunctions import (
     approve_pmpermit,
