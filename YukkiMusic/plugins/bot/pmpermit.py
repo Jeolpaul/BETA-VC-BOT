@@ -3,7 +3,7 @@ from pyrogram.raw.functions.messages import DeleteHistory
 
 from config import BOT_ID, PM_PERMIT, OWNER_ID as SUDOERS, USERBOT_ID, USERBOT_PREFIX
 from Yukkimusic import app, app2, eor
-from wbb.core.decorators.errors import capture_err
+from YukkiMusic.utils.decorators.errors.py import capture_err
 from wbb.utils.dbfunctions import (
     approve_pmpermit,
     disapprove_pmpermit,
