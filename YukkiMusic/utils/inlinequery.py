@@ -15,8 +15,8 @@ answer = []
 answer.extend(
     [
         InlineQueryResultArticle(
-            title="GIT REPO",
-            description=f"Official Repo Of Beta Music!.",
+            title="SEARCH YOUTUBE",
+            description=f"SEARCH HERE ANYTHING TO GET YT LINKZ!.",
             thumb_url="https://graph.org/file/bb1ebd7c68d600dae4600.jpg",
             input_message_content=InputTextMessageContent("HERE IS THE OFFICIAL REPO OF ME | ITS A 100% CLONE OF YUKKI MUSIC | github.com/Jeolpaul/BETA-MUSIC-OFFICIAL | KEEP SUPPORT ME"),
         ),
