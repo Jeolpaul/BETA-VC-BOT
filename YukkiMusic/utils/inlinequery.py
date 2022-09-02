@@ -18,7 +18,7 @@ answer.extend(
             title="SEARCH YOUTUBE",
             description=f"SEARCH HERE ANYTHING TO GET YT LINKZ!.",
             thumb_url="https://graph.org/file/bb1ebd7c68d600dae4600.jpg",
-            input_message_content=InputTextMessageContent("HERE IS THE OFFICIAL REPO OF ME | ITS A 100% CLONE OF YUKKI MUSIC | github.com/Jeolpaul/BETA-MUSIC-OFFICIAL | KEEP SUPPORT ME"),
+            input_message_content=InputTextMessageContent("You Can Search Youtube On Inline Using Me, By Typing My Username on your Keyborad and search any query!!  \n\neg: ```@BETA_VC_BOT How To Make A Bot``` Like This You Can Search Any Query🙌🏻"),
         ),
     ]
 )
