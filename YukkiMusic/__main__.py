@@ -63,13 +63,13 @@ async def init():
     for all_module in ALL_MODULES:
         importlib.import_module("YukkiMusic.plugins" + all_module)
     LOGGER("Yukkimusic.plugins").info(
-        "Successfully Imported Modules "
+        "Successfully Imported Modules From Beta"
     )
     await userbot.start()
     await Yukki.start()
     try:
         await Yukki.stream_call(
-            "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
+            "https://graph.org/file/c77df0ce50e71457fe6bc.mp4"
         )
     except NoActiveGroupCall:
         LOGGER("YukkiMusic").error(
@@ -79,10 +79,10 @@ async def init():
     except:
         pass
     await Yukki.decorators()
-    LOGGER("YukkiMusic").info("Yukki Music Bot Started Successfully")
+    LOGGER("YukkiMusic").info("Your Music Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("YukkiMusic").info("Stopping Yukki Music Bot! GoodBye")
+    LOGGER("YukkiMusic").info("Stopping Your Music Bot! GoodBye")
