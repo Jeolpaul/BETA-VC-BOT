@@ -19,8 +19,8 @@ def start_pannel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="✚ Add Beta To Your Group",
-                url=f"https://t.me/{app.username}?start=help",
+                text="✚ Add Me Your Group",
+                url=f"https://t.me/{app.username}?startgroup=true",
             ),
             InlineKeyboardButton(
                 text="➣ Help", callback_data="settings_helper"
