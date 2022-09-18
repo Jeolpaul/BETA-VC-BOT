@@ -20,13 +20,6 @@ load_dotenv()
 API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH")
 
-
-# USRBOT
-BOT_ID = getenv("BOT_ID", "")
-PM_PERMIT = "True"
-USERBOT_ID = getenv("USERBOT_ID", "")
-USERBOT_PREFIX = "."
-
 ## Get it from @Botfather in Telegram.
 
 BOT_TOKEN = getenv("BOT_TOKEN")
