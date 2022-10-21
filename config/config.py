@@ -85,6 +85,12 @@ AUTO_SUGGESTION_TIME = int(
     getenv("AUTO_SUGGESTION_TIME", "5400")
 )  # Remember to give value in Seconds
 
+
+# If you want your bot to setup the commands automatically in the bot's menu set it to true.
+# Refer to https://i.postimg.cc/Bbg3LQTG/image.png
+SET_CMDS = getenv("SET_CMDS", False)
+
+
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
 
