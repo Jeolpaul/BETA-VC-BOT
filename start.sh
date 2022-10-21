@@ -10,4 +10,4 @@ fi
 cd /MUSICBYPASS
 pip3 install -U -r requirements.txt
 echo "BOT IS STARTING"
-python3 -m 
+python3 -m YukkiMusic
