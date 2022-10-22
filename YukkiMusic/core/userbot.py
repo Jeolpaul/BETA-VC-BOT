@@ -58,7 +58,7 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("BETA_BOTZ")
-                await self.one.join_chat("BETA_SUPPORT")
+                await self.one.join_chat("MR_LINK_Z")
                 await self.one.join_chat("BETA_MIRROR")
                 await self.one.join_chat("mkn_bots_updates")
                 await self.one.join_chat("about_jeol")
@@ -91,7 +91,7 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.two.join_chat("BETA_BOTZ")
-                await self.two.join_chat("BETA_SUPPORT")
+                await self.two.join_chat("MR_LINK_Z")
                 await self.two.join_chat("BETA_MIRROR")
                 await self.two.join_chat("mkn_bots_updates")
                 await self.two.join_chat("about_jeol")
@@ -124,7 +124,7 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.three.join_chat("BETA_BOTZ")
-                await self.three.join_chat("BETA_SUPPORT")
+                await self.three.join_chat("MR_LINK_Z")
                 await self.three.join_chat("BETA_MIRROR")
                 await self.three.join_chat("mkn_bots_updates")
                 await self.three.join_chat("about_jeol")
@@ -157,7 +157,7 @@ class Userbot(Client):
             await self.four.start()
             try:
                 await self.four.join_chat("BETA_BOTZ")
-                await self.four.join_chat("BETA_SUPPORT")
+                await self.four.join_chat("MR_LINK_Z")
                 await self.four.join_chat("BETA_MIRROR")
                 await self.four.join_chat("mkn_bots_updates")
                 await self.four.join_chat("about_jeol")
@@ -190,7 +190,7 @@ class Userbot(Client):
             await self.five.start()
             try:
                 await self.five.join_chat("BETA_BOTZ")
-                await self.five.join_chat("BETA_SUPPORT")
+                await self.five.join_chat("MR_LINK_Z")
                 await self.five.join_chat("BETA_MIRROR")
                 await self.five.join_chat("mkn_bots_updates")
                 await self.five.join_chat("about_jeol")
