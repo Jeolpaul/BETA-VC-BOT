@@ -1,3 +1,14 @@
+import asyncio
+import platform
+from sys import version as pyver
+
+from pyrogram import filters
+from pyrogram.errors import MessageIdInvalid
+from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
+
+
+
+
 @app.on_callback_query()
 async def callback(bot, msg):
    data = msg.data
