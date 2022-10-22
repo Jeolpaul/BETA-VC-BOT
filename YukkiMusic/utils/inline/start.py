@@ -132,6 +132,6 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 ]
             )
     buttons.append(
-        [InlineKeyboardButton(text="➣ MOVIE GROUP", url="https://t.me/MR_LINK_Z")]
+        [InlineKeyboardButton(text="➣ DEVELOPERS", callback_data="dev")]
     )
     return buttons
