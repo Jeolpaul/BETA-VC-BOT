@@ -5,7 +5,7 @@ from sys import version as pyver
 from pyrogram import filters
 from pyrogram.errors import MessageIdInvalid
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
-
+from YukkiMusic import app
 
 
 
