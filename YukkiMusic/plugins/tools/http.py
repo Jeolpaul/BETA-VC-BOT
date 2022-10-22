@@ -1,8 +1,8 @@
 from asyncio import gather
 
-from helper.aio import aiohttpsession as session
+from .aio import aiohttpsession as session
 
-SOURCE = """[Github](https://github.com/Jeolpaul/TG-MULTI-BOT) | [Updates](t.me/beta_botz)
+SOURCE = """[Github](https://github.com/Jeolpaul/MUSICBYPASS) | [Updates](t.me/beta_botz)
 ```----------------
 | Contributors |
 ----------------```
