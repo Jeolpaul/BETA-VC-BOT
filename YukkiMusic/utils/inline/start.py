@@ -62,7 +62,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="✚ Add Beta To Your Group",
+                text="✚ Add Me To Your Group",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ]
@@ -124,7 +124,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="➣ DEVELOPER", user_id=OWNER
+                        text="➣ OWNER", user_id=OWNER
                     ),
                     InlineKeyboardButton(
                         text="➣ Help", callback_data="settings_back_helper"
