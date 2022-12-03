@@ -59,7 +59,6 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("BETA_BOTZ")
                 await self.one.join_chat("MR_LINK_Z")
-                await self.one.join_chat("BETA_MIRROR")
                 await self.one.join_chat("mkn_bots_updates")
                 await self.one.join_chat("about_jeol")
             except:
@@ -92,7 +91,6 @@ class Userbot(Client):
             try:
                 await self.two.join_chat("BETA_BOTZ")
                 await self.two.join_chat("MR_LINK_Z")
-                await self.two.join_chat("BETA_MIRROR")
                 await self.two.join_chat("mkn_bots_updates")
                 await self.two.join_chat("about_jeol")
             except:
