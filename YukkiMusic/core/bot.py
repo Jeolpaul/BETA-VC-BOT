@@ -45,8 +45,10 @@ class YukkiBot(Client):
             try:
                 await self.set_bot_commands(
                     [
-                        BotCommand("ping", "Check that bot is alive or dead"),
+                        BotCommand("start", "Check that bot is alive or dead"),
+                        BotCommand("help", "to know my all commands detailed"),
                         BotCommand("play", "Starts playing the requested song"),
+                        BotCommand("vplay", "Starts playing the requested video"),
                         BotCommand("skip", "Moves to the next track in queue"),
                         BotCommand("pause", "Pause the current playing song"),
                         BotCommand("resume", "Resume the paused song"),
